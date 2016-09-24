@@ -58,5 +58,14 @@ function display3(e) {
 }
 
 //OPGAVE 5
+function toConsole() {
+    var x = document.getElementsByTagName("input");
+    for (var i = 0; i < x.length; i++) {
+        console.log(x[i].value);
+    }
+    return false;
+}
+
+
 
 

@@ -24,17 +24,17 @@ and open the template in the editor.
         <div class="opg4" style="height:200px; width:200px; border:2px solid blue;" onmouseover="display2(this)"></div>
         <div class="opg4" style="height:200px; width:200px; border:2px solid green;" onmouseover="display3(this)" onm></div>
 
-        <form action="action_page.php">
+        <form id="form1" onsubmit="toConsole(); return false;">
             First name:<br>
             <input type="text" name="firstname" value="">
             <br>
             Last name:<br>
             <input type="text" name="lastname" value="">
             <br>
-            Boy <input type="radio" name="isBoy" value="false">     
-            Girl <input type="radio" name="isGirl" value="false"> <br>
+            Boy <input type="radio" name="isBoy" value="true">     
+            Girl <input type="radio" name="isBoy" value="false"> <br>
             Married? <input type="checkbox" name="isMarried" value="false"> <br><br>
-            <input type="submit" value="scriptFunction">
+            <input type="submit" value="Submit">
         </form>
 
     </body>
