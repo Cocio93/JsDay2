@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JavaScript Day 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="opg1">red</div>
+        <div class="opg1">red</div>
+        <div class="opg1">red</div>
+
+        <div class="opg3" style="height:100px; width:100px; background-color: red;" onclick="div1()"></div>
+        <div class="opg3" style="height:100px; width:100px; background-color: blue;" onclick="div2()"></div>
+        <div class="opg3" style="height:100px; width:100px; background-color: green;" onclick="div3()"></div>            
+
+
+        <div class="opg4" style="height:200px; width:200px; border:2px solid red;" onmouseover="display1(this)"></div>
+        <div class="opg4" style="height:200px; width:200px; border:2px solid blue;" onmouseover="display2(this)"></div>
+        <div class="opg4" style="height:200px; width:200px; border:2px solid green;" onmouseover="display3(this)" onm></div>
+
+        <form action="action_page.php">
+            First name:<br>
+            <input type="text" name="firstname" value="">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" value="">
+            <br>
+            Boy <input type="radio" name="isBoy" value="false">     
+            Girl <input type="radio" name="isGirl" value="false"> <br>
+            Married? <input type="checkbox" name="isMarried" value="false"> <br><br>
+            <input type="submit" value="scriptFunction">
+        </form>
+
+    </body>
+
+    <script src="script.js" type="text/javascript"></script>
+</html>
